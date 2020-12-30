@@ -1,5 +1,5 @@
 def fact(n, memo={}):
-    if n == 0 or n == 1:
+    if n == 1:
         memo[n] = 1
         return memo[n]
     if not n in memo:
